@@ -2,12 +2,12 @@
 
 Integrates Tilt::PDF into Rails ActionView
 
-See [Tilt::PDF](https://github.com/lloeki/tilt-pdf) for details
+See [Tilt::PDF](https://github.com/lloeki/tilt-pdf) for details about the templates themselves.
 
 ## Usage
 
 ```ruby
-gem 'tilt-pdf-rails', require: 'tilt/pdf/rails'
+gem 'tilt-pdf-rails'
 ```
 
 Have a `FooController` `respond_to :pdf` and `render some_view` as usual.
